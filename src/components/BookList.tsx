@@ -188,7 +188,7 @@ const BookList: React.FC = () => {
         </form>
       </Form>
       <div className="divider mb-4" />
-      <div className="grid">
+      <div className="grid justify-center">
         {isLoading
           ? Array.from({ length: 12 }).map((_, index) => (
               <Skeleton key={index} className="w-[250px] h-[330px]" />
